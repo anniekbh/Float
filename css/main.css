@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Hind+Guntur:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cairo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+	max-width: 100%;
+	box-sizing: content-box;
+}
+nav{
+	padding:2%;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: grey;
+	background-color: #FBFBFB;
+}
+.opction{
+	float: left;
+	width: 17%;
+	height: 300px;
+	margin: 20px 5px 2px;
+	padding: 5px;
+}
+h3{
+	font-family: 'Hind Guntur', sans-serif; 
+}
+h6, p{
+	font-family: 'Cairo', sans-serif;
+}
+p{
+	font-size: 14px;
+}
+a:hover {
+	transition: all 0.3s ease;
+	height: 280px;
+	width: 200px;
+	color:#A8B9DA;
+	border-right: 1px solid #ECECEC;
+	font-size: 90%;
+ 	margin-top: 10px;
+ 	font-family: 'Roboto', sans-serif;
+}
